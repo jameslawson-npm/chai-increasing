@@ -1,6 +1,6 @@
 {
   "name": "chai-increasing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Chai matchers for increasing/decreasing sequences",
   "main": "index.js",
   "scripts": {
