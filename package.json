@@ -18,6 +18,7 @@
     "mocha": "^3.0.2"
   },
   "dependencies": {
+    "immutable": "^3.8.1",
     "lodash.identity": "^3.0.0"
   }
 }
