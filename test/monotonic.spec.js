@@ -9,6 +9,10 @@ describe('monotonic increasing', function() {
     expect([]).to.be.increasing;
   });
 
+  it('should assert [1] is monotonically increasing', function() {
+    expect([1]).to.be.increasing;
+  });
+
   it('should assert [1,1,1] is monotonically increasing', function() {
     expect([1,1,1]).to.be.increasing;
   });
@@ -27,6 +31,10 @@ describe('monotonic decreasing', function() {
 
   it('should assert [] is monotonically decreasing', function() {
     expect([]).to.be.decreasing;
+  });
+
+  it('should assert [1] is monotonically decreasing', function() {
+    expect([1]).to.be.decreasing;
   });
 
   it('should assert [1,1,1] is monotonically decreasing', function() {
