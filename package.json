@@ -20,5 +20,13 @@
   "dependencies": {
     "immutable": "^3.8.1",
     "lodash.identity": "^3.0.0"
+  },
+  "homepage": "https://github.com/jameslawson/chai-increasing#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameslawson/chai-increasing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jameslawson/chai-increasing/issues"
   }
 }
