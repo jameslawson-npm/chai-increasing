@@ -18,7 +18,7 @@ Strictly increasing/decreasing:
 ```javascript
 expect([1,2,3,4,5]).to.be.strictly.increasing;
 expect([1,2,3,3,4,5]).not.to.be.strictly.increasing;
-expect([10,9,8,7,6]).to.be.strictly.increasing;
+expect([10,9,8,7,6]).to.be.strictly.decreasing;
 expect([10,9,8,7,7]).not.to.be.strictly.decreasing;
 ```
 
